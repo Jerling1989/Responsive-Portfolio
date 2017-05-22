@@ -1,0 +1,808 @@
+
+/* WHOLE PAGE */
+body {
+	padding: 0;
+	margin:0;
+	background-image: url("../images/bg_image.jpg");
+	background-position: left top
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+
+/* HEADER */
+#header {
+	display: block;
+	width: 100%;
+	height: 12%;
+	float: left;
+	background-color: #eeeff3;
+	border-bottom: solid;
+	border-bottom-color: grey;
+	border-right-width: 3px
+}
+
+#header-content {
+	position: relative;
+	display: inline;
+	width: 80%;
+	height: 100%
+}
+
+#name {
+	float: left;
+	position: relative;
+	display: inline;
+	background-color: #4aaaa5;
+	width: 20%;
+	left: 10%;
+	height: 100%;
+	color: #eeeff3;
+	text-align: center;
+}
+
+
+#nav {
+	display: inline;
+	position: relative;
+	float: right;
+	width: 60%;
+	right: 10%;
+	padding: 3%;
+	text-align: right;
+}
+
+
+#top_name {
+	margin: auto;
+	padding: 14%;
+}
+
+
+/* MAIN CONTENT */
+.content {
+	display: block;
+	position: relative;
+	float: left;
+	width: 80%;
+	height: auto;
+	left: 10%;
+	padding-bottom: 20px;
+	margin-bottom: 60px;
+}
+
+
+.main-box {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 60%;
+	background-color: #eeeff3;
+	padding: 20px;
+	border: solid;
+	border-color: grey;
+	border-width: 3px;
+	margin-bottom: 20px;
+}
+
+
+
+#connect {
+	display: inline;
+	position: relative;
+	text-align: center;
+	float: right;
+	width: 30%;
+	background-color: #eeeff3;
+	padding: 1%;
+	border: solid;
+	border-color: grey;
+	border-width: 3px;
+}
+
+
+#profile {
+	display: inline;
+	float: left;
+	width: 30%;
+	height: 30%;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	min-width: 150px;
+	min-height: auto;
+}
+
+
+.icon {
+	display: inline;
+	position: relative;
+	text-align: center;
+	width: 30%;
+	height: auto;
+	padding: 1%;
+}
+
+
+/* FOOTER */
+#footer {
+	display: block;
+	width: 100%;
+	height: 8%;
+	position: fixed;
+	right:0;
+	bottom: 0;
+	left: 0;
+	background-color: grey;
+	border-top-style: solid;
+	border-top-width: 8px;
+	border-top-color: #4aaaa5;
+	text-align: center;
+}
+
+#copyright {
+	padding: 20px;
+	font-size: 0.8em;
+	color: #eeeff3;
+}
+
+
+/* OTHER */
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #eeeff3;
+	font-size: 1.5em;
+}
+
+
+
+h3 {
+	font-family: Georgia;
+	font-size: 1.2em;
+}
+
+
+p {
+	font-family: arial;
+	font-size: 1.5em;
+
+}
+
+
+.teal {
+	color: #4aaaa5;
+	padding: 5px;
+}
+
+a {
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.block {
+	position: relative;
+	display: block;
+	float: left;
+	left: 0;
+	width: 40%;
+	height: auto;
+	padding:10px;
+}
+
+
+.inline {
+	position: relative;
+	display: inline;
+	float: right;
+	right: 0;
+	width: 40%;
+	height: auto;
+	padding: 10px;
+}
+
+
+/* CONTACT FORM */
+
+#contact {
+  display: inline;
+  position: relative;
+  float: left;
+  width: 60%;
+  background-color: #eeeff3;
+  padding: 20px;
+  border: solid;
+  border-color: grey;
+  border-width: 3px;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  width: 90%;
+  padding: 0;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+#contact textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4aaaa5;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+
+	body {
+		padding: 0;
+		margin:0;
+		float: left;
+		background-image: url("../images/bg_image.jpg");
+		background-position: left top;
+		background-repeat-x: no-repeat;
+		background-repeat-y: repeat;
+		width: 100%;
+	}
+
+	#header {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 8%;
+		float: left;
+		background-color: #eeeff3;
+		border-bottom: solid;
+		border-bottom-color: grey;
+		border-right-width: 3px;
+	}
+
+	#header-content {
+		position: relative;
+		display: inline;
+		width: 80%;
+		height: 100%;
+	}
+
+	#name {
+		float: left;
+		position: relative;
+		display: inline;
+		background-color: #4aaaa5;
+		width: 30%;
+		height: 100%;
+		color: #eeeff3;
+		text-align: center;
+	}
+
+
+	#nav {
+		display: inline;
+		position: relative;
+		float: right;
+		width: 60%;
+		right: 10%;
+		padding-top: 3%;
+		text-align: right;
+	}
+
+
+	#top_name {
+		margin: auto;
+		padding: 10%;
+	}
+
+	.content {
+		display: block;
+		position: relative;
+		float: left;
+		width: 70%;
+		padding: 0;
+		margin: auto;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 60px;
+	}
+
+
+	.main-box,
+	#connect {
+		display: block;
+		position: static;
+		width: 100%;
+		float: left;
+		background-color: #eeeff3;
+		padding: 20px;
+		margin: 20px;
+		border: solid;
+		border-color: grey;
+		border-width: 3px;
+	}
+
+
+	#profile {
+		display: inline;
+		float: left;
+		width: 30%;
+		height: 30%;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		min-width: 150px;
+		min-height: auto;
+	}
+
+
+	.icon {
+		display: inline;
+		position: relative;
+		text-align: center;
+		width: 30%;
+		height: auto;
+		padding: 1%;
+	}
+
+	#footer {
+		display: block;
+		width: 100%;
+		height: 8%;
+		position: fixed;
+		right:0;
+		bottom: 0;
+		left: 0;
+		background-color: grey;
+		border-top-style: solid;
+		border-top-width: 8px;
+		border-top-color: #4aaaa5;
+		text-align: center;
+	}
+
+	#copyright {
+		padding: 20px;
+		font-size: 0.8em;
+		color: #eeeff3;
+	}
+
+	#contact {
+	  display: block;
+	  position: static;
+	  width: 100%;
+	  float: left;
+	  background-color: #eeeff3;
+	  padding: 20px;
+	  margin: 20px;
+	  border: solid;
+	  border-color: grey;
+	  border-width: 3px;
+	}
+	
+
+	fieldset {
+	  border: medium none !important;
+	  margin: 0 0 10px;
+	  width: 90%;
+	  padding: 0;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="email"],
+	#contact textarea {
+	  width: 100%;
+	  background: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	}
+
+
+	#contact textarea {
+	  height: 100px;
+	  max-width: 100%;
+	  resize: none;
+	}
+
+	#contact button[type="submit"] {
+	  cursor: pointer;
+	  width: 100%;
+	  border: none;
+	  background: #4aaaa5;
+	  color: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	  font-size: 15px;
+	}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		padding: 0;
+		margin:0;
+		float: left;
+		background-image: url("../images/bg_image.jpg");
+		background-position: left top;
+		background-repeat-x: no-repeat;
+		background-repeat-y: repeat;
+		width: 100%;
+	}
+
+	#header {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 8%;
+		float: left;
+		background-color: #eeeff3;
+		border-bottom: solid;
+		border-bottom-color: grey;
+		border-right-width: 3px;
+	}
+
+	#header-content {
+		position: relative;
+		display: inline;
+		width: 80%;
+		height: 100%;
+	}
+
+	#name {
+		float: left;
+		position: relative;
+		display: inline;
+		background-color: #4aaaa5;
+		width: 30%;
+		height: 100%;
+		color: #eeeff3;
+		text-align: center;
+	}
+
+
+	#nav {
+		display: inline;
+		position: relative;
+		float: right;
+		width: 60%;
+		right: 10%;
+		padding-top: 3%;
+		text-align: right;
+	}
+
+
+	#top_name {
+		margin: auto;
+		padding: 10%;
+	}
+
+	.content {
+		display: block;
+		position: relative;
+		float: left;
+		width: 70%;
+		padding: 0;
+		margin: auto;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 60px;
+	}
+
+
+	.main-box,
+	#connect {
+		display: block;
+		position: static;
+		width: 100%;
+		float: left;
+		background-color: #eeeff3;
+		padding: 20px;
+		margin: 20px;
+		border: solid;
+		border-color: grey;
+		border-width: 3px;
+	}
+
+
+	#profile {
+		display: inline;
+		float: left;
+		width: 30%;
+		height: 30%;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		min-width: 150px;
+		min-height: auto;
+	}
+
+
+	.icon {
+		display: inline;
+		position: relative;
+		text-align: center;
+		width: 30%;
+		height: auto;
+		padding: 1%;
+	}
+
+	#footer {
+		display: block;
+		width: 100%;
+		height: 8%;
+		position: fixed;
+		right:0;
+		bottom: 0;
+		left: 0;
+		background-color: grey;
+		border-top-style: solid;
+		border-top-width: 8px;
+		border-top-color: #4aaaa5;
+		text-align: center;
+	}
+
+	#copyright {
+		padding: 20px;
+		font-size: 0.8em;
+		color: #eeeff3;
+	}
+
+	#contact {
+	  display: block;
+	  position: static;
+	  width: 100%;
+	  float: left;
+	  background-color: #eeeff3;
+	  padding: 20px;
+	  margin: 20px;
+	  border: solid;
+	  border-color: grey;
+	  border-width: 3px;
+	}
+	
+
+	fieldset {
+	  border: medium none !important;
+	  margin: 0 0 10px;
+	  width: 90%;
+	  padding: 0;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="email"],
+	#contact textarea {
+	  width: 100%;
+	  background: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	}
+
+
+	#contact textarea {
+	  height: 100px;
+	  max-width: 100%;
+	  resize: none;
+	}
+
+	#contact button[type="submit"] {
+	  cursor: pointer;
+	  width: 100%;
+	  border: none;
+	  background: #4aaaa5;
+	  color: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	  font-size: 15px;
+	}
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		padding: 0;
+		margin:0;
+		float: left;
+		background-image: url("../images/bg_image.jpg");
+		background-position: left top;
+		background-repeat-x: no-repeat;
+		background-repeat-y: repeat;
+		width: 100%;
+	}
+
+	#header {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 8%;
+		float: left;
+		background-color: #eeeff3;
+		border-bottom: solid;
+		border-bottom-color: grey;
+		border-right-width: 3px;
+	}
+
+	#header-content {
+		position: relative;
+		display: inline;
+		width: 100%;
+		height: 100%;
+	}
+
+	#name {
+		float: right;
+		position: static;
+		display: block;
+		background-color: #4aaaa5;
+		width: 100%;
+		height: 70%;
+		color: #eeeff3;
+		text-align: center;
+	}
+
+
+	#nav {
+		display: block;
+		position: static;
+		float: right;
+		width: 100%;
+		height: 30%;
+		padding-top: 3%;
+		text-align: center;
+	}
+
+
+	#top_name {
+		margin: 0;
+		padding: 1%;
+	}
+
+	.content {
+		display: block;
+		position: relative;
+		float: left;
+		width: 60%;
+		padding: 0;
+		margin: auto;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 60px;
+	}
+
+
+	.main-box,
+	#connect {
+		display: block;
+		position: static;
+		width: 100%;
+		float: left;
+		background-color: #eeeff3;
+		padding: 20px;
+		margin: 20px;
+		border: solid;
+		border-color: grey;
+		border-width: 3px;
+	}
+
+
+	#profile {
+		display: inline;
+		float: left;
+		width: 30%;
+		height: 30%;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		min-width: 150px;
+		min-height: auto;
+	}
+
+
+	.icon {
+		display: inline;
+		position: relative;
+		text-align: center;
+		width: 30%;
+		height: auto;
+		padding: 1%;
+	}
+
+	#footer {
+		display: block;
+		width: 100%;
+		height: 8%;
+		position: fixed;
+		right:0;
+		bottom: 0;
+		left: 0;
+		background-color: grey;
+		border-top-style: solid;
+		border-top-width: 8px;
+		border-top-color: #4aaaa5;
+		text-align: center;
+	}
+
+	#copyright {
+		padding: 20px;
+		font-size: 0.8em;
+		color: #eeeff3;
+	}
+
+	#contact {
+	  display: block;
+	  position: static;
+	  width: 100%;
+	  float: left;
+	  background-color: #eeeff3;
+	  padding: 20px;
+	  margin: 20px;
+	  border: solid;
+	  border-color: grey;
+	  border-width: 3px;
+	}
+	
+
+	fieldset {
+	  border: medium none !important;
+	  margin: 0 0 10px;
+	  width: 90%;
+	  padding: 0;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="email"],
+	#contact textarea {
+	  width: 100%;
+	  background: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	}
+
+
+	#contact textarea {
+	  height: 100px;
+	  max-width: 100%;
+	  resize: none;
+	}
+
+	#contact button[type="submit"] {
+	  cursor: pointer;
+	  width: 100%;
+	  border: none;
+	  background: #4aaaa5;
+	  color: #FFF;
+	  margin: 0 0 5px;
+	  padding: 10px;
+	  font-size: 15px;
+	}
+
+
+}
+
+
+
+
+
+
+

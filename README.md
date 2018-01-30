@@ -1,5 +1,7 @@
 # Responsive_Portfolio
-This is a Responsive Portfolio site made with HTML and CSS. Media Queries were added to the CSS file at 1024px, 768px, and 640px to make the website mobile responsive.
+Here is a Portfolio Site using HTML and CSS, that is very similar to my Basic_Portfolio site. The big difference with this one is that I made it responsive using Media Queries in the CSS file. This was a very fun and interesting project that shows how to make a Responsive website without relying on CDN's like Bootstrap and Materialize. Media Queries were added to the CSS file at 1024px, 768px, and 640px to make the website mobile responsive.
+
+---
 
 - The first page the user will land on is the home or "about" page. It has a picture of me along with a description of who I am. It also has links to my GitHub, LinkedIn, and Stack Overflow accounts, as does every other page on this website.
 ![ABOUT](assets/images/read_me/about.png)
